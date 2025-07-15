@@ -1,0 +1,81 @@
+:root{
+    --one: #222222;
+    --two:#737374;
+    --three: #989494;
+    --four:#4b4a4b;
+
+}
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--two);
+}
+/* navigation bar  */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 60px;
+
+    background-color: var(--one);
+    color: white;
+    justify-content:space-around;
+}
+.nav-logo{
+    margin-right: 40rem;
+    height: 50px;
+    width:180px;
+}
+img{
+    
+    height:40px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0px 20px ;
+  padding: 10px 0px;
+  
+ 
+}
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+.btn {
+  background-color: white;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px 5px;
+}
+.profile {
+    background-image: url('https://lh3.googleusercontent.com/aida-public/...');
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  /* background-size: cover; */
+  background-position: center;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
